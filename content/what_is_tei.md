@@ -15,7 +15,7 @@ TEI is actually three things:
 
 ## Markup
 
-TEI is one kind of **mark up language**.  
+TEI is one kind of **mark-up language**.  
 
 Markup encodes information about text – it could describe the structure, appearance and content of a text. Digital markup has to be explicit and unambiguous so that a computer can understand it.
 
