@@ -5,10 +5,7 @@ nav_order: 1
 ---
 
 ## Note: this workshop is in development and not yet complete.
-
-Description...
-
-## Learning objectives
+Are you interested in computational methods in the humanities? Do you want to know more about Text Encoding Initiative (TEI) XML? This is a workshop for those interested in getting started with TEI. By diving into examples of projects and through introductory hands-on activities, we will explore several use cases of text encoding as well as the skills necessary to embark on text encoding projects.
 
 At the end of this workshop, you will be able to:
 
@@ -22,11 +19,12 @@ At the end of this workshop, you will be able to:
 ## Schedule
 
 | 0:00 | Welcome and using Zoom|
-| 0:05 | Introduction |  
-| 0:15 |  |
-| 0:30 |  |   
-| 0:45 |  |
-| 1:00 | Wrap-up and Discussion |
+| 0:05 | Introduction to TEI |
+| 1:05 | Tour of Oxygen |
+| 1:20 | BREAK |   
+| 1:40 | Hands on Activiites (optional attendance) |
 
 ## Resources
-* [eg. link to external slides]
+* [Workshop slides](https://ubc-library-rc.github.io/intro-TEI/slides/introduction.html#)
+* [Official TEI documentation](https://tei-c.org/)
+* Book a consult for your project with at the Research Commons by emailing <a href="mailto:eka.grguric@ubc.ca">eka.grguric@ubc.ca</a>.
