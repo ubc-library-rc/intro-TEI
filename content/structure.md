@@ -7,7 +7,7 @@ nav_order: 8
 
 Understanding the anatomy of XML is crucial to working with the TEI guidelines. Let's look at some basic features: **elements**, **tags** (opening and closing), and **attributes**. We also have a handy Jargon Busting (needs link) section at the end should you wish to refer to them. 
 
-![Depiction of the structure of an XML element, tag, and attribute](/images/xml-anatomy.png)
+![Depiction of the structure of an XML element, tag, and attribute](./images/xml-anatomy.png)
 
 **Element** - building blocks of XML, elements are kind of like containers that provide structure to the human readable content, for example `<paragraph>`, `<name>`, and `<subject>` are elements. <br>
 **Tag** - tags denote elements in a machine readable format. They signal elements to computing applications. THey are usually enclosed in angle brackets, for example `<p></p>` for ‘paragraph’. Tags almost always appear in pairs (opening and closing). <br>
@@ -18,7 +18,7 @@ Understanding the anatomy of XML is crucial to working with the TEI guidelines. 
 
 In an XML file (which includes your XML file encoded using TEI guidelines), there are a few elements you need to have to ensure the document is **well-formed** (valid according to XML rules). Take a look at this example:
 
-![Depiction of a marked up play](/images/Formalization-Stanza.png)
+![Depiction of a marked up play](./images/Formalization-Stanza.png)
 
 Each start tag in vaid XML has to have a corresponding end tag. Think of the Russian Matryoshka dolls: they need a top and a bottom part in order to function. That’s how we make sure information is contained in the right place under the right tag.
 
