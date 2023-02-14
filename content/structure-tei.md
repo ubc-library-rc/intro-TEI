@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Structure: TEI
+title: TEI Structure
 nav_order: 9
 ---
 # What does TEI look like?
