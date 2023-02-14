@@ -9,8 +9,8 @@ Understanding the anatomy of XML is crucial to working with the TEI guidelines. 
 
 ![Depiction of the structure of an XML element, tag, and attribute](./images/xml-anatomy.png)
 
-**Element** - building blocks of XML, elements are kind of like containers that provide structure to the human readable content, for example `<paragraph>`, `<name>`, and `<subject>` are elements. <br>
-**Tag** - tags denote elements in a machine readable format. They signal elements to computing applications. THey are usually enclosed in angle brackets, for example `<p></p>` for ‘paragraph’. Tags almost always appear in pairs (opening and closing). <br>
+**Element** - as building blocks of XML, elements are kind of like containers that provide structure to the human readable content, for example `<paragraph>`, `<name>`, and `<subject>` are elements. <br>
+**Tag** - tags denote elements in a machine readable format. They signal elements to computing applications. They are usually enclosed in angle brackets, for example `<p></p>` for ‘paragraph’. Tags almost always appear in pairs (opening and closing). <br>
 **Attribute** - include additional information to enrich the element. In this example, additional info is provided about the type of location. <br>
 
 
@@ -20,9 +20,9 @@ In an XML file (which includes your XML file encoded using TEI guidelines), ther
 
 ![Depiction of a marked up play](./images/Formalization-Stanza.png)
 
-Each start tag in vaid XML has to have a corresponding end tag. Think of the Russian Matryoshka dolls: they need a top and a bottom part in order to function. That’s how we make sure information is contained in the right place under the right tag.
+First of all, each start tag in valid XML has to have a corresponding end tag. Think of the Russian Matryoshka dolls: they need a top and a bottom part in order to function. That’s how we make sure information is contained in the right place under the right tag.
 
-For elements in an XML document that are **nested**, the inner element needs to be properly closed off first (similar to HTML). For example, `<tutorial><topic>XML</topic></tutorial>` is valid but `<tutorial><topic>XML</tutorial></topic>` is not.
+For elements in an XML document that are **nested**, the inner element needs to be properly closed off first prior to closing off the outside element (similar to HTML). For example, `<tutorial><topic>XML</topic></tutorial>` is valid but `<tutorial><topic>XML</tutorial></topic>` is not.
 
 XML documents need to have a root element, which is the parent of all the other elements. With TEI XML, this element is generally `<TEI>`. 
 
