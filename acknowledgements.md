@@ -7,10 +7,10 @@ nav_order: 20
 
 This workshop was adapted from: 
 
-* Carpentries incubator session on TEI https://carpentries-incubator.github.io/tei-xml/index.html
+* The Library Carpentries Incubator lesson ["Introduction to TEI"](https://carpentries-incubator.github.io/tei-xml/index.htm)
 
-* UBC Library Research Commons workshop on Creating XML Files in Oxygen originally developed by Dorothee Lessing "https://ubc-library-rc.github.io/creating-xml-files-in-oxygen/
+* The UBC Library Research Commons workshop [Creating xml files from newspapers in oXygen](https://ubc-library-rc.github.io/creating-xml-files-in-oxygen/) originally developed by Dorothee Lessing.
 
-* Teach yourself TEI resources from the Text Encoding Initative https://tei-c.org/support/learn/
+* [Learn the TEI](https://tei-c.org/support/learn/)resources from the Text Encoding Initative.
 
 Site template adapted from the [just-the-docs](https://github.com/pmarsceill/just-the-docs) Jekyll template created by [Patrick Marsceil](https://github.com/pmarsceill) and available under the [MIT License](http://opensource.org/licenses/MIT).
