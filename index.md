@@ -3,7 +3,8 @@ layout: default
 title: Outline
 nav_order: 1
 ---
-:heavy_exclamation_mark: This workshop is in development and not yet complete. :heavy_exclamation_mark:  
+This workshop is in development and not yet complete.
+{: .warn}
 # Introduction to the Text Encoding Initiative (TEI)
 Are you interested in computational methods in the humanities? Do you want to know more about Text Encoding Initiative (TEI) XML? This is a workshop for those interested in getting started with TEI. By diving into examples of projects and through introductory hands-on activities, we will explore several use cases of text encoding as well as the skills necessary to embark on text encoding projects.
 
