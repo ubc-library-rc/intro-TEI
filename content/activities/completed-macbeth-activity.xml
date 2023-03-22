@@ -1,0 +1,62 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Macbeth
+				</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Excerpt taken from http://www.shakespeare-online.com/plays/macbeth_1_1.html
+				</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			  <div type="act" n="1">
+				<head>Act 1</head>
+				<div type="scene" n="1">
+					<head>Scene 1</head>
+					<stage>Thunder and lightning. Enter three Witches</stage>
+					<sp><speaker>First Witch</speaker> 
+						When shall we three meet again 
+						In thunder, lightning, or in rain? 
+					</sp>
+					<sp><speaker>Second Witch</speaker> 
+						When the hurlyburly's done, 
+						When the battle's lost and won. 
+					</sp>
+					<sp><speaker>Third Witch</speaker>
+						That will be ere the set of sun. 
+					</sp>
+					<sp><speaker>First Witch</speaker>
+						Where the place? 
+					</sp>
+					<sp><speaker>Second Witch</speaker>
+						Upon the heath. 
+					</sp>
+					<sp><speaker>Third Witch</speaker>
+						There to meet with Macbeth. 
+					</sp>
+					<sp><speaker>First Witch</speaker>
+						I come, Graymalkin! 
+					</sp>
+					<sp><speaker>Second Witch </speaker>
+						Paddock calls. 
+					</sp>
+					<sp><speaker>Third Witch</speaker>
+						Anon.
+					</sp>
+					<sp><speaker>ALL</speaker>
+						Fair is foul, and foul is fair: 
+						Hover through the fog and filthy air.
+					</sp>
+					<stage>Exeunt</stage>
+				 </div>
+				</div>
+		</body>
+	</text>
+</TEI>
