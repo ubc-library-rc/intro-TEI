@@ -3,41 +3,45 @@ layout: default
 title: Introduction
 nav_order: 4
 ---
-# Introduction
+# What is TEI?
 
-## Encoding and Land
-As an entry point into text encoding, let's think about a landmark which represents the ongoing presence of the xwməθkwəy̓əm (Musqueam), Skwxwú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔ/Selilwitulh (Tsleil- Waututh) Nations. 
+TEI stands for: the Text Encoding Initiative, a “consortium which collectively develops and maintains a standard for the representation of texts in digital form” (https://tei-c.org/). 
 
-Someone might describe one landmark in this way: 
+TEI is actually three things: 
 
-```sh
- I will be biking past the Welcome Figure underneath Burrard Bridge on the Sea Wall today.
-```
-If you have a lot of these statements--a bigger dataset or a longer text--you might be interested in an easier way of generating a list, say, of all landmarks in Vancouver which are affiliated with the First Nations, which is difficult to do "manually." Computational power gives you the potential to _encode_ a text in a way that is machine readable. 
+- it is a set of **guidelines** that the Text Encoding Initiative developed for describing text based objects (eg. manuscripts, archives, letters, newspapers)
+- it is an **organisation** which oversees the production of official guidelines
+- it is a **community of practice** of people using the guidelines
 
-```sh
- I will be biking past <placeName> the Welcome Figure underneath Burrard Bridge </placeName> on the Sea Wall today.
-```
-By adding ```<placeName>``` and ```</placeName>``` we are able to _tag_ a piece of information in a text. With this, we can then generate all the place names we tagged using ```<placeName>``` (we'll talk about the uses for this later). 
+TEI is one kind of **mark-up language**.  
 
-As we'll see, there is a great amount of scholarly decision-making and autonomy involved in which tags you choose, which often depends on the goals you hope to accomplish as well as the content you're encoding. Here are some examples of different ways to encode:
+Markup encodes information about text – it could describe the structure, appearance and content of a text. Digital markup has to be explicit and unambiguous so that a computer can understand it.
 
-```sh
-<place>
- <placeName>Abbey Dore</placeName>
- <location>
-  <geo>51.969604 -2.893146</geo>
- </location>
-</place>
-```
-```sh
-<place xml:id="BGbuilding" type="building">
- <placeName>Brasserie Georges</placeName>
- <location>
-  <country key="FR"/>
-  <settlement type="city">Lyon</settlement>
-  <district type="arrondissement">IIème</district>
-  <district type="quartier">Perrache</district>
- </location>
-</place>
-```
+Markup can be:
+
+- **presentational** (it gives instructions on how a text appears on the page eg. line breaks, tabs etc.), 
+- **procedural** (it gives an output device, for example a printer, information about how it should deal with text) or 
+- **descriptive** (it encodes the structure of the text, but not what to do with it)
+
+(Adapated from Coombs, James H., Allen H. Renear, and Steven J. DeRose. 1987. "Markup Systems and the Future of Scholarly Text Processing." 
+in (Landow and Delaney 1993))
+
+TEI is **based on XML** (eXtensible Markup Language), which is a **descriptive** markup language. EAD (encoded archival description), 
+used to describe archival materials, also uses XML. 
+
+This makes TEI both machine-readable and human-readable. Which means that a computer can identify and interpret the markup, but a human can as well. For example, using the element <language ident="en-GB"> tells to computer that the item is in British English – but it’s also relatively easy to see that it’s about language and the codes are intelligible.
+
+Another significant advantage of TEI (and why it’s used in so many research projects) is because it’s designed to be shared. Researchers can take someone’s TEI file and enrich it, for example by adding extra detail or transcriptions.
+
+* XML is non-proprietary and does not depend on a specific piece of software to use it
+* XML has basic rules and structure that TEI inherits and need to be followed
+* XML describes data and information, but does not instruct how it appears on the page
+* XML is human and computer readable
+
+## Another look at TEI and XML
+
+Another way to understand the relationship between TEI and XML is to think of TEI as a language (it is an encoding language after all). TEI provides terms we can use such as ```<body>``` or ```<p> (paragraph)``` or ```<speaker>```. These guidelines were developed to better enable scholars to share and communicate in a common language about texts. That said, TEI is also customizable and is flexible enough to be used for all sorts of documents.
+
+XML, on the other hand, is a metalanguage. It describes how markup languages operate, of which TEI is one. XML provides a set of rules for how those languages can be used.
+
+
